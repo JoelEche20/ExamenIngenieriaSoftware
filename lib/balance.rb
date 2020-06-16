@@ -5,4 +5,8 @@ class Balance
         @monto = @monto.to_i + num.to_i
         return @monto.to_i
     end
+    def retiro(num)
+        @monto = @monto.to_i - num.to_i
+        return @monto.to_i
+    end
 end
